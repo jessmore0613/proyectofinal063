@@ -1,0 +1,50 @@
+
+body{
+	background-image:url("../img/marmolado3.jpg");
+
+background-attachment: fixed;
+	background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.article{
+	background-color: black;
+
+}
+footer{
+  background-color: black;
+}
+.cardi{
+	border: 10px solid;
+	border-image: 
+	linear-gradient( #ffff,#6610f2,#d63384 ) 1;
+	animation: rotate 
+	2.5s
+	ease-in
+	infinite;
+
+}
+@keyframes 
+rotate {50%{
+	border-image: 
+	linear-gradient( 360deg, #ffff,#6610f2,#d63384 )1;
+}
+
+}
+.cardib{
+	border: 10px solid;
+	border-image: 
+	linear-gradient( #ffff,#6610f2,#d63384 ) 1;
+	animation: rotate 
+	2.5s
+	ease-in
+	infinite;
+
+}
+@keyframes 
+rotate {50%{
+	border-image: 
+	linear-gradient( 360deg, #ffff,#6610f2,#d63384 )1;
+}
+
+}
